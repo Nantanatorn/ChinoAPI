@@ -19,7 +19,7 @@ connectDataBase();
 
 app.use("", (req, res) =>{
     return res.json({
-        message : "Welcome to Express+MongoDB RestAPI"
+        message : "Welcome to ChinoAPI HEHE"
     });
 });
 
