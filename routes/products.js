@@ -1,7 +1,7 @@
 const express = require("express");
 const product = require("../controller/product");
-
 const router = express.Router();
+require('dotenv').config();
 
 router.get("/", product.getAllProducts);
 router.get("/categories", product.getProductCategories);
